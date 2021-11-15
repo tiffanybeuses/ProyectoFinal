@@ -123,6 +123,14 @@ h3 {
   width: 25rem;
 }
 
+.col {
+  text-align: center;
+}
+
+.container {
+  padding-top: 3rem;
+}
+
 h3 {
   text-align: center;
   padding-bottom: 2rem;

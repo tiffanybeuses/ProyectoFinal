@@ -27,71 +27,119 @@
 </head>
 
 <body>
-    <!--Nav Bar-->
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img src="../images/logoipsum-logo-40.svg" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Categorías
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <li><a class="dropdown-item" href="./categorias.html">Alimentos</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Farmacia</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Cuidados y belleza</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Rascadores</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Comederos y bebederos</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">juguetes</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Bolsos y Transportadoras</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Golosinas y snacks</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Camas</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Otros Artículos</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./faqs.html">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
-                        </li>    
-                    </ul>
-                    <span class="navbar-text">
-                        <ul class="navbar-list">
-                            <li class="navbar-account">
-                                <img src="../images/my-account-logo.png" alt="my-account">Mi cuenta
+    <header>
+        <!--Nav Bar-->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="../images/logoipsum-logo-40.svg"
+                            alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                             </li>
-                            <li class="navbar-account">
-                                <img src="../images/shopping-cart.png" alt="shopping-card">Mi carrito
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categorías
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./categorias.html">Alimentos</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Farmacia</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Cuidados y belleza</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Rascadores</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Comederos y bebederos</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">juguetes</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Bolsos y Transportadoras</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Golosinas y snacks</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Camas</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Otros Artículos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./faqs.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
                             </li>
                         </ul>
-                    </span>
+                        <span class="navbar-text">
+                            <ul class="navbar-list">
+                                <li class="navbar-account">
+                                    <img src="../images/my-account-logo.png" alt="my-account">Mi cuenta
+                                </li>
+                                <li class="navbar-account">
+                                    <img src="../images/shopping-cart.png" alt="shopping-card">Mi carrito
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
                 </div>
+            </nav>
+        </div>
+        <!--Search Bar-->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
         </nav>
-    </div>
-    <!--Search Bar-->
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+    </header>
+    <main>
+        <!--Main-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="/images/comedero.png" alt="comedero">
+                </div>
+                <div class="col">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quae unde nisi voluptates. Sint ut
+                    nemo distinctio culpa cupiditate hic, ullam officia nam magni impedit unde earum dolor sit fugiat
+                    enim reiciendis, maxime aspernatur. In autem cupiditate molestias quos mollitia laudantium similique
+                    totam deleniti. Voluptate quod sit nihil adipisci ipsum.
+                </div>
+            </div>
         </div>
-    </nav>
-    <h1>Pet Shop</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem explicabo excepturi facilis
+                    distinctio non modi sequi sit enim. Labore cupiditate ipsa eius quo id culpa eveniet ex unde non
+                    totam officiis a nobis ab ratione ipsam repudiandae perferendis fugiat qui, sit doloremque dolorem
+                    et maxime aliquam fuga. Consequuntur, possimus reiciendis!
+                </div>
+                <div class="col">
+                    <img src="/images/Alimento1.png" alt="Alimento">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="/images/Comedero2.png" alt="Comedero">
+                </div>
+                <div class="col">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet in illum sit maiores odio cum
+                    voluptatum quis beatae veritatis tempora! Perferendis amet voluptatibus quam tempora qui ad maxime!
+                    Atque, magnam? Obcaecati reprehenderit voluptatum nisi maiores? Qui quia id atque iste, ab ad harum
+                    nihil provident voluptate numquam nostrum aliquid reprehenderit?
+                </div>
+            </div>
+        </div>
+    </main>
+
 
     <!--Footer-->
     <footer>
