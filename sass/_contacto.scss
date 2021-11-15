@@ -1,0 +1,31 @@
+/*Flexbox Contacto*/
+.row-contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.main-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.row-contacto {
+    padding-left: 20rem;
+    list-style: none;
+    margin-right: 10rem;
+}
+
+.row-contacto-one {
+    padding-right: 15rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form-control {
+    width: 25rem;
+}

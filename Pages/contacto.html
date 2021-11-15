@@ -27,95 +27,147 @@
 </head>
 
 <body>
-    <!--Nav Bar-->
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img src="../images/logoipsum-logo-40.svg" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Categorías
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <li><a class="dropdown-item" href="./categorias.html">Alimentos</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Farmacia</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Cuidados y belleza</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Rascadores</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Comederos y bebederos</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">juguetes</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Bolsos y Transportadoras</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Golosinas y snacks</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Camas</a></li>
-                              <li><a class="dropdown-item" href="./categorias.html">Otros Artículos</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./faqs.html">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
-                        </li>    
-                    </ul>
-                    <span class="navbar-text">
-                        <ul class="navbar-list">
-                            <li class="navbar-account">
-                                <img src="../images/my-account-logo.png" alt="my-account">Mi cuenta
+    <header>
+        <!--Nav Bar-->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="../images/logoipsum-logo-40.svg"
+                            alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                             </li>
-                            <li class="navbar-account">
-                                <img src="../images/shopping-cart.png" alt="shopping-card">Mi carrito
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categorías
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./categorias.html">Alimentos</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Farmacia</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Cuidados y belleza</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Rascadores</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Comederos y bebederos</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">juguetes</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Bolsos y Transportadoras</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Golosinas y snacks</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Camas</a></li>
+                                    <li><a class="dropdown-item" href="./categorias.html">Otros Artículos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./faqs.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
                             </li>
                         </ul>
-                    </span>
+                        <span class="navbar-text">
+                            <ul class="navbar-list">
+                                <li class="navbar-account">
+                                    <img src="../images/my-account-logo.png" alt="my-account">Mi cuenta
+                                </li>
+                                <li class="navbar-account">
+                                    <img src="../images/shopping-cart.png" alt="shopping-card">Mi carrito
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
                 </div>
+            </nav>
+        </div>
+        <!--Search Bar-->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
         </nav>
-    </div>
-    <!--Search Bar-->
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-        </div>
-    </nav>
+    </header>
+    <!--Main-->
     <main>
-        <h1>Pet Shop</h1>
+        <h3>Contáctanos</h3>
+        <main class="main-contacto">
+            <section class="row-contacto">
+                <!--Números de contacto y ubicación-->
+                <div>
+                    <img src="/images/whatsapp.png" alt="iconoDeWhatsapp" /> 54911573714
+                </div>
+                <div>
+                    <img src="/images/call.png" alt="iconoLlamada" /> +5491157371454
+                </div>
+                <div>
+                    <img src="/images/email.png" alt="iconoEmail" /> ventas@petshop.com
+                </div>
+                <div>
+                    <img src="/images/pin.png" alt="iconoLocalizacion" /> Humahuaca 3779,
+                    CABA
+                </div>
+                <div>
+                    <li>MAPA</li>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0951784287663!2d-58.41753697342163!3d-34.60175467195418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6209033c01%3A0xd181604c92b7bc53!2sHumahuaca%203779%2C%20C1191ABI%20CABA!5e0!3m2!1sen!2sar!4v1631065904330!5m2!1sen!2sar"
+                        width="400" height="250" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+            <section class="row-contacto-one">
+                <!--Formulario de contacto-->
 
-
-    </main>
-
-    <!--Footer-->
-    <footer>
-        <div class=footer-linea>
-            <div class="redes-sociales">
-                <p>Encuentranos en todas nuestras redes</p>
-                <a href="#"><img src="/images/facebook.png" alt="facebook"></a>
-                <a href="#"><img src="/images/instagram.png" alt="instagram"></a>
-                <a href="#"><img src="/images/youtube.png" alt="youtube"></a>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Escriba su Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Telefóno</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Escriba su Telefóno">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Escriba su Email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escriba su mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                </div>
+            </section>
+        </main>
+        <!--Footer-->
+        <footer>
+            <div class=footer-linea>
+                <div class="redes-sociales">
+                    <p>Encuentranos en todas nuestras redes</p>
+                    <a href="#"><img src="/images/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="/images/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="/images/youtube.png" alt="youtube"></a>
+                </div>
             </div>
-        </div>
-        <div class="whatsapp">
-            <a href="#"><img src="/images/whatsapp.png" alt="icono de inicio de chat"></a>
-        </div>
-    </footer>
+            <div class="whatsapp">
+                <a href="#"><img src="/images/whatsapp.png" alt="icono de inicio de chat"></a>
+            </div>
+        </footer>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
 
 </body>
 
