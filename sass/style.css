@@ -38,8 +38,8 @@ header {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-right: 5rem;
-  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-left: 18rem;
   flex-direction: column;
 }
 
@@ -90,6 +90,12 @@ header {
   border-radius: 50%;
   text-align: center;
   z-index: 998;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
