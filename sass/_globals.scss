@@ -1,0 +1,46 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: static;
+}
+/*Estilo cuenta y carrito*/
+.navbar-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+       
+}
+/*Nav Bar*/
+.navbar-account {
+   flex-direction: column;
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 1rem;
+}
+
+.d-flex {
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.navbar-nav {
+  align-items: center;  
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15rem;
+  margin-left: 18rem;
+  flex-direction: column
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+}
+

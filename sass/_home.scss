@@ -1,0 +1,50 @@
+/*Estilo título Productos destacados*/
+
+.title-products {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+    
+}
+
+/*Estilo productos destacados*/
+.descripcion {
+    text-align: center;
+}
+
+.cajaPrecio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+    text-align: center;
+}
+
+/*Estilo Footer*/
+.footer-linea {
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+.redes-sociales {
+    text-align: center;
+    padding: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.whatsapp {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 998;
+}
+
+
+
+
